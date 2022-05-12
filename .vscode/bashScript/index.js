@@ -1,5 +1,5 @@
 const { exec } = require("child_process");
-const MAX_NUMBER_OF_FILES_PER_COMMIT = 100;
+const MAX_NUMBER_OF_FILES_PER_COMMIT = 10;
 
 const rootPath = __dirname;
 function checkMaxNumberOfTheFiles(numberOfFiles) {
