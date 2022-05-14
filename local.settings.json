@@ -1,0 +1,27 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=testallresources;AccountKey=6TTTHBMZkccmdD15eqzQJqhYNaluO0y3BpMBpdo20wCY8/P7jRr40brIWyK72h8qA/fhpYt7ufQ++AStcq7s5Q==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "NAME_TEMPLATE_ROOT_FILE_XML": "example_that_works.xml",
+    "STEP_SIZE": "10",
+    "TOTAL_FILES_TO_PROCESS": "100",
+    "START_FOLDER_PROCESS_SFTP": "/prodExtras5",
+    "FINAL_FOLDER_PROCESS_SFTP": "/prodProcess5",
+    "FINAL_FOLDER_ERRORS_FTP": "/prodError5",
+
+    "GENERATE_PATH_FILE_NAME": "XML_FILES_THAT_WORKS",
+    "NAME_TEMPLATE_ROOT_FOLDER_XML": "generateXMLFiles/data",
+
+    "URL_MG": "https://bankendappserv-tracking-freightpro-stg-eastus-01.azurewebsites.net/mercurygate",
+
+    "SQL_DATABASE": "sqldbfreightprostg01",
+    "SQL_USER": "ntgsqladminfreightprostg",
+    "SQL_PASS": "FpP64&W0BThw6Rp8GeprlwLa",
+    "SQL_HOST": "sqlfreightprostg01.database.windows.net",
+    "SFTP_HOST": "testallresources.blob.core.windows.net",
+    "SFTP_PORT": "22",
+    "SFTP_USERNAME": "testallresources.ramses",
+    "SFTP_PASSWORD": "id5CI5FwMXz/XSxG9GOVlstpFWgpx3cx/4h2agV2+vCNB/FNPr5NWqvH6nsEpx+6sdOtDthdkJMj3xyDA4/GpA=="
+  }
+}
